@@ -1,8 +1,0 @@
-
-F	java:S106"+Replace this use of System.out by a logger.(¬—ê88æÑ ®¼2
-„
-java:S1128"BRemove this unused import 'jm.task.core.jdbc.service.UserService'.(Ïªû8Äß­¼2J$4935038f-3b2e-4efc-8bcd-47e79eb5a9a3
-
-java:S1128"FRemove this unused import 'jm.task.core.jdbc.service.UserServiceImpl'.(“Œ‚ùÿÿÿÿ8Äß­¼2J$ea9fe1ce-efd9-4587-80a3-aefe41a3c0d4
-{
-java:S1128"8Remove this unused import 'jm.task.core.jdbc.util.Util'.(õ¥ãô8Äß­¼2J$6d60a032-3616-4c89-b453-eedf0091f1d0
