@@ -1,0 +1,10 @@
+
+
+java:S26298"7Use the built-in formatting to construct this argument.(ë²°³üÿÿÿÿ8¿Òü®¼2J$d8bd1e54-51ac-44ef-971a-f6997336f924
+z
+java:S2629C"7Use the built-in formatting to construct this argument.(Èåª8£²ı®¼2J$2cfcee8e-fb84-44d6-816d-176be6aea149
+Ä
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ñ½†š8ØÒü®¼2J$67feea44-595d-4a08-b470-4399758ff2d9
+r	java:S106Z"+Replace this use of System.out by a logger.(´ûüÿÿÿÿ8èÒü®¼2J$2dc63f94-c385-477d-8f44-6fd3eaa3f7f8
+‰
+java:S1128"FRemove this unused import 'jm.task.core.jdbc.util.Util.getConnection'.(½ƒˆï8ëÒü®¼2J$091fc263-0df2-40f5-b7a4-8f16df006aa1
