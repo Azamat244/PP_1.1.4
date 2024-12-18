@@ -20,6 +20,7 @@ public class Util {
     private static final String DB_USER = "root";
     private static final String DB_PASSWORD = "2443254";
 
+
     private static SessionFactory sessionFactory;
     private static Logger logger = Logger.getLogger(Util.class.getName());
 

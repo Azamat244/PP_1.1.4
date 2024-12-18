@@ -8,6 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 
+
 @Entity //данный класс будет привязан в бд
 @Table(name = "users") //показывает к какой именно бд мы привязываем класс
 public class User {

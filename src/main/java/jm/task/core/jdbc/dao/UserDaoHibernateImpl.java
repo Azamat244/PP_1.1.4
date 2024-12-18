@@ -80,6 +80,7 @@ public class UserDaoHibernateImpl implements UserDao {
 
     }
 
+
     @Override
     public List<User> getAllUsers() {
         try (Session session = getSessionFactory().openSession()) {

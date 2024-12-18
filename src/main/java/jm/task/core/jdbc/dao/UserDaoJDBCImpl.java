@@ -18,6 +18,7 @@ public class UserDaoJDBCImpl implements UserDao {
     private Connection connection = Util.getConnection();
     private static final Logger logger = Logger.getLogger(UserDaoJDBCImpl.class.getName());
 
+
     public UserDaoJDBCImpl() {
 
     }
