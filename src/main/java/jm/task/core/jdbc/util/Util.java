@@ -25,6 +25,10 @@ public class Util {
     private static Logger logger = Logger.getLogger(Util.class.getName());
 
 
+    private Util() {
+
+    }
+
     public static Connection getConnection() {
         Connection connection = null;
         try {
