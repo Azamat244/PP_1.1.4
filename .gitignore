@@ -12,6 +12,8 @@ target/
 *.iml
 *.ipr
 .idea/
+hs_err_pid*.log
+replay_pid*.log
 
 ### Eclipse ###
 .apt_generated

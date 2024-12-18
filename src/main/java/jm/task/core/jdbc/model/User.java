@@ -1,21 +1,29 @@
 package jm.task.core.jdbc.model;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Table
+
+@Entity //данный класс будет привязан в бд
+@Table(name = "users") //показывает к какой именно бд мы привязываем класс
 public class User {
-    @Id
+
+    @Id //говорит что даное поле (столбец) является PRIMARY KEY
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column //к какому столбцу в таблице мы привязываем поле
     private Long id;
 
-    @Column
+    @Column(name = "name")
     private String name;
 
-    @Column
+    @Column(name = "last_name")
     private String lastName;
 
-    @Column
+    @Column(name = "age")
     private Byte age;
 
     public User() {
